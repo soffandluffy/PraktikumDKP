@@ -1,8 +1,7 @@
 // modul scanner untuk membaca input user
 import java.util.Scanner;
 
-// class baru dengan nama modul5_kel46
-public class modul5_kel46 {
+public class tugas {
     // main function
     public static void main(String[] args) {
         // deklarasi variabel
