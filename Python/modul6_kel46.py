@@ -3,7 +3,6 @@ class Praktikum:
         self.nama1 = ""
         self.nama2 = ""
         self.kelompok = ""
-
     def getNama1(self):         
         return self.nama1
     def setNama1(self,nama1):      
@@ -24,25 +23,18 @@ def main():
     nama1 = input("Nama Praktikan 1\t:")
     nama2 = input("Nama Praktikan 2\t:")
     kelompok = input("Kelompok\t\t:")
-
-
-    prak =Praktikum()
+    prak = Praktikum()
     prak.setNama1(nama1)
     prak.setNama2(nama2)
     prak.setKelompok(kelompok)
-
     Vnama1 = prak.getNama1()
     Vnama2 = prak.getNama2()
     Vkelompok = prak.getKelompok()
-    
-
     print("\n==========Menampilkan Data Praktikan==========")
     print("Praktikan 1:", Vnama1)
     print("Praktikan 2:", Vnama2)
     print("Kelompok:", Vkelompok)
     print('=' * 45)
-
-
     print()
     print(Vnama1+ ' dan ' + Vnama2 + ' adalah praktikan DKP 2020 Kelompok ' + Vkelompok)
 

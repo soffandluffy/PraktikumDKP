@@ -1,14 +1,10 @@
 <?php
-
 Class Mobil { //membuat kelas
-
 	private $merk;
 	private $tipe;
 	private $warna;
 	private $jenisBBM;
-	
-	//membuat setter
-	function setMerk($merk) {
+	function setMerk($merk) { //membuat setter
 		$this->merk = $merk;
 	}
 	function setTipe($tipe){
@@ -20,9 +16,7 @@ Class Mobil { //membuat kelas
 	function setJenisBBM($jenisBBM){
 		$this->jenisBBM = $jenisBBM;
 	}
-	
-	//membuat getter
-	function getMerk() {
+	function getMerk() { //membuat getter
 		return $this->merk;
 	}
 	function getTipe() {
@@ -35,18 +29,13 @@ Class Mobil { //membuat kelas
 		return $this->jenisBBM;
 	}
 } // akhir kelas
-
-//membuat objek
-$mobil_baru = new Mobil();
-
+$mobil_baru = new Mobil(); //membuat objek
 //mengatur nilai
 $mobil_baru->setMerk("Mitsubishi");
 $mobil_baru->setTipe("Mirage");
 $mobil_baru->setWarna("merah");
 $mobil_baru->setJenisBBM("Pertamax");
-
 //menampilkan data
 echo "Saya punya mobil dengan merk ".$mobil_baru->getMerk()." tipe ".$mobil_baru->getTipe();
-echo " berwarna ".$mobil_baru->getWarna().".<br> Mobil saya menggunakan bensin berjenis ".$mobil_baru->getJenisBBM();
-		
+echo " berwarna ".$mobil_baru->getWarna().".<br> Mobil saya menggunakan bensin berjenis ".$mobil_baru->getJenisBBM();	
 ?>

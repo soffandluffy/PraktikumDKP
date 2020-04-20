@@ -6,72 +6,67 @@ using System.Threading.Tasks;
 
 namespace Tugas_Kelompok46
 {
-    class Program //kelas utama
+    class Program
     {
-        class Mahasiswa //kelas objek atau setter getter
+        class Mahasiswa
         {
-            private string Nama; //deklarasi atribut
-            private string NIM;
+            private string Nama;
+            private double NIM;
             private string Jurusan;
             private string Status;
             private string Hobi;
 
-            public void setNama(string val) //method set atribut
-            {
-                this.Nama = val; //menentukan nilai atribut
-            }
-            public string getNama() //method get atribut
-            {
-                return Nama; //mendapatkan nilai atribut dan mengembalikan ke fungsi yang memanggilnya
-            }
-
-            public void setNIM(string val)
-            {
-                this.NIM = val;
-            }
-            public string getNIM()
-            {
-                return NIM;
-            }
-
-            public void setJurusan(string val)
-            {
-                this.Jurusan = val;
-            }
-            public string getJurusan()
-            {
-                return Jurusan;
-            }
-
-            public void setStatus(string val)
-            {
-                this.Status = val;
-            }
-            public string getStatus()
-            {
-                return Status;
-            }
-
-            public void setHobi(string val)
-            {
-                this.Hobi = val;
-            }
-            public string getHobi()
-            {
-                return Hobi;
-            }
-
+            public void setNama(string val){this.Nama = val;}
+            public string getNama(){return Nama;}
+            public void setNIM(double val){this.NIM = val;}
+            public double getNIM(){return NIM;}
+            public void setJurusan(string val){this.Jurusan = val;}
+            public string getJurusan(){return Jurusan;}
+            public void setStatus(string val){this.Status = val;}
+            public string getStatus(){return Status;}
+            public void setHobi(string val){this.Hobi = val;}
+            public string getHobi(){return Hobi;}
         }
 
         static void Main(string[] args)
         {
+
+            string nama1,nama2,jurusan1,jurusan2,status1,status2,hobi1,hobi2;
+            double nim1,nim2;
+
+            Console.WriteLine("=======Input Mahasiswa 1=======");
+            Console.Write("Nama \t\t:");
+            nama1 = Console.ReadLine();
+            Console.Write("NIM \t\t:");
+            nim1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Jurusan \t:");
+            jurusan1 = Console.ReadLine();
+            Console.Write("Status \t\t:");
+            status1 = Console.ReadLine();
+            Console.Write("Hobi \t\t:");
+            hobi1 = Console.ReadLine();
+
+            Console.WriteLine("=======Input Mahasiswa 1=======");
+            Console.Write("Nama \t\t:");
+            nama2 = Console.ReadLine();
+            Console.Write("NIM \t\t:");
+            nim2 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Jurusan \t:");
+            jurusan2 = Console.ReadLine();
+            Console.Write("Status \t\t:");
+            status2 = Console.ReadLine();
+            Console.Write("Hobi \t\t:");
+            hobi2 = Console.ReadLine();
+
+            Console.WriteLine();
+            Console.WriteLine();
             Mahasiswa mhs1 = new Mahasiswa();
             Console.WriteLine("=======Mahasiswa 1=======");
-            mhs1.setNama("Soffan Marsus Ahmad"); 
-            mhs1.setNIM("21120119130042");
-            mhs1.setJurusan("Teknik Komputer");
-            mhs1.setStatus("Mahasiswa");
-            mhs1.setHobi("Hiking");
+            mhs1.setNama(nama1); 
+            mhs1.setNIM(nim1);
+            mhs1.setJurusan(jurusan1);
+            mhs1.setStatus(status1);
+            mhs1.setHobi(hobi1);
 
             Console.WriteLine(
                 "Nama       : " + mhs1.getNama() +
@@ -84,11 +79,11 @@ namespace Tugas_Kelompok46
             Console.WriteLine("=======Mahasiswa 2=======");
 
             Mahasiswa mhs2 = new Mahasiswa();
-            mhs2.setNama("Muhammad Firmansyah"); 
-            mhs2.setNIM("21120119130102");
-            mhs2.setJurusan("Teknik Komputer");
-            mhs2.setStatus("Mahasiswa");
-            mhs2.setHobi("Baca Komik");
+            mhs2.setNama(nama2); 
+            mhs2.setNIM(nim2);
+            mhs2.setJurusan(jurusan2);
+            mhs2.setStatus(status2);
+            mhs2.setHobi(hobi2);
 
             Console.WriteLine(
                 "Nama       : " + mhs2.getNama() +

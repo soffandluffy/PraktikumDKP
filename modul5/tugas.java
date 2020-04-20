@@ -15,9 +15,9 @@ public class tugas {
         // membaca input user dan disimpan dalam variabel password
         password = input.nextLine();
         
-        // membuat object satu bernilai constructor baru untuk userService dengan isi parameter input email dan password
-        userService satu = new userService( email, password );
+        // membuat object user bernilai constructor baru untuk userService dengan isi parameter input email dan password
+        userService user = new userService( email, password );
         // memanggil function login
-        satu.login();
+        user.login();
     }
 }

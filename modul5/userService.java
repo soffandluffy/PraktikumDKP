@@ -45,7 +45,7 @@ public class userService {
                     buku1 = histories[i][1];
                     buku2 = histories[i][2];
                     tanggal = histories[i][3];
-                    // maka akan menset variabel roles dengan isi data role yang sesuai
+                    // dan akan menset variabel roles dengan isi data role yang sesuai
                     roles = data[i][2];
                     // dan mengembalikan boolean true
                     return true;

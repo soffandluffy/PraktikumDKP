@@ -16,5 +16,5 @@ public class modul6_kel46 {
         System.out.print(mobil_baru.getMerk() + " " + mobil_baru.getTipe());
         System.out.println(" berwarna " + mobil_baru.getWarna());
         System.out.println("Mobil saya menggunakan bensin berjenis " + mobil_baru.getJenisBBM() + ".");    
-}
+    }
 }
