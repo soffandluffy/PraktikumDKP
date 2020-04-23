@@ -4,7 +4,7 @@ public class userService {
     private String[][] data = new String[2][3];
     private String[][] histories = new String[2][4];
     private String email, password, roles = "";
-    private String buku1 = "", buku2 = "", tanggal = "";
+    private String emailh, buku1 = "", buku2 = "", tanggal = "";
     
     // constructor userService yang akan dijalankan saat inisialisasi dengan parameter emails dan passwords
     public userService(String emails, String passwords)
@@ -42,6 +42,7 @@ public class userService {
                 {
                     // maka akan menset nilai buku1, buku2, dan tanggal sesuai dengan email user yang login
                     // diambil dari array histories
+                    emailh = histories[i][0];
                     buku1 = histories[i][1];
                     buku2 = histories[i][2];
                     tanggal = histories[i][3];
@@ -68,7 +69,7 @@ public class userService {
             System.out.println("\nWelcome " + roles);
             System.out.println("Logged it as user email " + email);
             // lalu akan menampilkan buku yang dipinjam dan tanggal peminjaman
-            System.out.println("Peminjaman buku : ");
+            System.out.println(emailh +" meminjam buku : ");
             System.out.println("Buku 1 : " + buku1);
             System.out.println("Buku 2 : " + buku2);
             System.out.println("Tanggal Peminjaman : " + tanggal);
