@@ -1,8 +1,9 @@
+package modul7_kel71;
+
 import java.util.Scanner;
 import java.util.Stack;
 
-@SuppressWarnings("unchecked")
-public class modul7_kel46_stack {
+public class Modul7_kel71 {
 
     public static void main(String[] args) {
         int pilihan;

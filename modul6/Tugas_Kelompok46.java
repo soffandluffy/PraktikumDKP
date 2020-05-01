@@ -59,7 +59,7 @@ public class Tugas_Kelompok46 {
         System.out.println("Nama        : " + mhs2.getNama());
         System.out.println("NIM         : " + mhs2.getNim());
         System.out.println("Jurusan     : " + mhs2.getJurusan());
-        System.out.println("Status      : " + mhs1.getStatus());    
+        System.out.println("Status      : " + mhs2.getStatus());    
         System.out.println("Hobi        : " + mhs2.getHobi());
         System.out.println("=================================");
 

@@ -4,22 +4,18 @@ import java.util.Stack;
 public class tugaskel46 {
     public static void main(String[] args) {
         int pilihan;
-        int jum;
-        int m;
         Scanner input = new Scanner(System.in);
+        Stack data = new Stack();
         Stack genap = new Stack();
         Stack ganjil = new Stack();
-        System.out.print("Berapa input yang diinginkan : ");
-        jum = Integer.parseInt(input.nextLine());
-        int[] data = new int[jum];
-        for (int i = 0; i < jum; i++) {
-            System.out.print("Input ke - " + (i+1) + " : ");
-            m = Integer.parseInt(input.nextLine());
-            data[i] = m;
-            if (m % 2 == 0) {
-                genap.push(m);
+        for(int i = 30; i >= 1; i--){
+            data.push(i);
+        }
+        while(!data.isEmpty()){
+            if((int)data.peek() % 2 == 0) {
+                genap.push(data.pop());
             } else {
-                ganjil.push(m);
+                ganjil.push(data.pop());
             }
         }
         while(true){
@@ -30,9 +26,13 @@ public class tugaskel46 {
             System.out.print("Pilih menu : ");
             pilihan = input.nextInt();
             if (pilihan == 1) {
-                System.out.println(genap + " ");
+                System.out.println("Stack Genap : ");
+                System.out.print(genap + " ");
+                System.out.println("");
             } else if (pilihan == 2) {
-                System.out.println(ganjil + " ");
+                System.out.println("Stack Ganjil : ");
+                System.out.print(ganjil + " ");
+                System.out.println("");
             } else {
                 System.exit(0);
             }

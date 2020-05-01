@@ -1,7 +1,7 @@
 public class Mahasiswa { 
         
         private String Nama;
-        private double Nim;
+        private long Nim;
         private String Jurusan;
         private String Status;
         private String Hobi;
@@ -9,7 +9,7 @@ public class Mahasiswa {
         public void setNama(String Nama) {
             this.Nama = Nama;
         }
-        public void setNim(double Nim) {
+        public void setNim(long Nim) {
             this.Nim = Nim;
         }
         public void setJurusan(String Jurusan) {
@@ -25,7 +25,7 @@ public class Mahasiswa {
         public String getNama(){
             return Nama;
         }
-        public double getNim(){
+        public long getNim(){
             return Nim;
         }
         public String getJurusan(){

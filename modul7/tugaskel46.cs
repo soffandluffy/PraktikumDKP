@@ -16,15 +16,13 @@ namespace Modul7_Kel46
             Stack genap = new Stack();
             Stack ganjil = new Stack();
 
-            for(int i = 30; i <= 50; i++){
+            for(int i = 30; i >= 1; i--){
                 data.Push(i);
             }
-
-            while (data.Count != 0) {
-                if((int)data.Peek() % 2 == 0){
+            while(data.Count != 0){
+                if((int)data.Peek() % 2 == 0) {
                     genap.Push(data.Pop());
-                }
-                else {
+                } else {
                     ganjil.Push(data.Pop());
                 }
             }
