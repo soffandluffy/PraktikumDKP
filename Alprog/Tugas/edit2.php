@@ -16,7 +16,7 @@ segarkan=setTimeout("bergerak()",kecepatan);}bergerak();
 
 <meta name="keywords" content="" />
 <meta name="Premium Series" content="" />
-<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="default.css" rel="stylesheet" type="text/css" media="screen" /> <link rel="stylesheet" type="text/css" href="custom.css">
 						
 <style type="text/css">
 <!--

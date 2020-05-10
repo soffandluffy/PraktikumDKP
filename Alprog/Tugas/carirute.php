@@ -36,7 +36,7 @@ function initialize() {
 	 ?>
 	 ];
   directionsDisplay = new google.maps.DirectionsRenderer();
-  var pusat = new google.maps.LatLng(-6.984175828310258,110.41000896684636);
+  var pusat = new google.maps.LatLng(-6.256501,106.854397);
   var mapOptions = {
     zoom: 15,
     center: pusat
@@ -150,7 +150,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 <meta name="keywords" content="" />
 <meta name="Premium Series" content="" />
-<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="default.css" rel="stylesheet" type="text/css" media="screen" /> <link rel="stylesheet" type="text/css" href="custom.css">
 						
 <style type="text/css">
 <!--

@@ -21,7 +21,8 @@ segarkan=setTimeout("bergerak()",kecepatan);}bergerak();
 <title></title>
 <meta name="keywords" content="" />
 <meta name="Premium Series" content="" />
-<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="default.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="custom.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap">
 <style type="text/css">
 <!--
 .style1 {color: #FF0000}
@@ -113,7 +114,7 @@ header("location:loginadmin.php");
 				<img src="latar.gif" alt="" />
 				<form name="form1" method="post" action="">
 				  <table width="486" border="0" align="center">
-    <tr bgcolor="#760314">
+    <tr bgcolor="#26A69A">
       <td colspan="2"><div align="center" class="style15">Login Administrator </div></td>
       </tr>
     <tr>
@@ -137,7 +138,7 @@ header("location:loginadmin.php");
             </div>
         </label></td>
     </tr>
-    <tr bgcolor="#6F0217">
+    <tr bgcolor="#26A69A">
       <td colspan="2"><div align="center" class="style14"><span class="style9">Pengguna Biasa Klik <strong><a href="loginuser.php" class="style14">disini</a></strong></span> </div></td>
     </tr>
   </table>

@@ -16,7 +16,8 @@ segarkan=setTimeout("bergerak()",kecepatan);}bergerak();
 
 <meta name="keywords" content="" />
 <meta name="Premium Series" content="" />
-<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="default.css" rel="stylesheet" type="text/css" media="screen" /> 
+<link rel="stylesheet" type="text/css" href="custom.css">
 						
 <style type="text/css">
 <!--
@@ -76,7 +77,7 @@ segarkan=setTimeout("bergerak()",kecepatan);}bergerak();
 			  <div class="entry">
 			
 			<table width="705" border="2" align="center" cellpadding="2" cellspacing="2">
-  <tr bordercolor="#E5E5E5" bgcolor="#7E0A15">
+  <tr bordercolor="#E5E5E5" bgcolor="#26A69A">
     <td width="189"><div align="center" class="style3 style4">Nama Tempat </div></td>
     <td width="289"><div align="center" class="style6">Koordinat</div></td>
 	<td width="289"><div align="center" class="style6">Keterangan</div></td>

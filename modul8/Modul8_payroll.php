@@ -38,7 +38,7 @@ Class Karyawan {
 							<span>Input data karyawan</span>
 						</div>
 						<div class="input-field col l12">
-							<input name="nama" id="nama" type="text" class="validate">
+							<input name="nama" pattern="[a-zA-Z]*" id="nama" type="text" class="validate">
 	          				<label for="nama">Nama</label>
 						</div>
 						<div class="input-field col l12">
