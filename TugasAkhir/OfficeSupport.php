@@ -63,7 +63,7 @@ function appname(){
 	          				<label for="Jumlah">Jumlah Barang</label>
 						</div>
 						<div class="input-field col l12">
-							<input name="nama" pattern="[a-zA-Z ]+" id="nama" type="text" class="validate" required>
+							<input name="nama" id="nama" type="text" class="validate" required>
 	          				<label for="nama">Nama Peminjam</label>
 						</div>
 						<div class="input-field col l12">
